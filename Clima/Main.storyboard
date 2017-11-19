@@ -156,6 +156,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fB8-N3-0Yd">
+                                        <rect key="frame" x="301" y="141" width="49" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="switchDegrees:" destination="P1Y-dL-zMM" eventType="valueChanged" id="ucz-CI-v70"/>
+                                        </connections>
+                                    </switch>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="FvW-e3-7QL" firstAttribute="top" secondItem="daC-2b-iRt" secondAttribute="top" constant="28" id="60e-Pu-XO0"/>
